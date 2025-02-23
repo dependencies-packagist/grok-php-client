@@ -8,7 +8,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/dependencies-packagist/deepseek-php-client",
+    "homepage": "https://github.com/dependencies-packagist/grok-php-client",
     "authors": [
         {
             "name": "jundayw",
