@@ -16,13 +16,24 @@
         }
     ],
     "require": {
-        "php": "^8.0",
         "baota/client": "^1.0",
         "qwen/qwen-php-client": "^1.0",
         "annotation/larscan": "^1.1",
         "open-ai/openai-php-client": "^0.10.3",
         "deepseek/deepseek-php-client": "^2.0",
-        "ollama/ollama-php-client": "^1.0"
+        "ollama/ollama-php-client": "^1.0",
+        "reflective/reflection": "^2.0",
+        "jundayw/laravel-sensitive": "^2.1",
+        "jundayw/laravel-render-provider": "^3.0",
+        "jundayw/laravel-policy": "^5.0",
+        "jundayw/laravel-oauth": "^3.0",
+        "jundayw/laravel-artisan-generator": "^5.0",
+        "jundayw/pinyin": "^3.0",
+        "jundayw/location-based-services": "^3.0",
+        "rfc/request": "^1.0",
+        "rfc/response": "^1.0",
+        "rfc/scannable": "^1.0",
+        "annotation/laroute": "1.x-dev"
     },
     "extra": {
         "branch-alias": {
