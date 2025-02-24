@@ -1,0 +1,28 @@
+name: Auto Update Composer Dependencies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9-21 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: 'ai'
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+
+      - name: Install Composer
+        run: |
+          curl -sS https://getcomposer.org/installer | php
+      - name: Run composer update
+        run: |
+          php composer.phar update --prefer-dist
