@@ -1,0 +1,32 @@
+{
+    "name": "grok/grok-php-client",
+    "description": "This is a community-driven, unofficial PHP SDK designed to simplify integration with the Grok AI API.",
+    "keywords": [
+        "Grok",
+        "grok sdk",
+        "grok-php-client"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "homepage": "https://github.com/dependencies-packagist/grok-php-client",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "abandoned": "grok-php/client",
+    "require": {
+        "grok-php/client": "^1.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
